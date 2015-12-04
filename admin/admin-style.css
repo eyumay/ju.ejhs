@@ -1,0 +1,423 @@
+/* --------------------------------------------------
+CSS Document For Leaves v1.0 - Anthonyy @ OSWD.org
+-------------------------------------------------- */
+/* BODY */
+body {
+	background:#CC6633;
+	background:url(img/bg-content.gif);
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+/* CONTAINER */
+
+		#container {
+			width: 900px;
+			margin: 0 auto;
+			font-family: Lucida Grande, Tahoma, Arial, Helvetica, sans-serif; /* Lucida Grande for the Macs, Tahoma for the PCs */
+			font-size: 12px;
+			line-height: 1.6em;
+			color: #666;
+			background-color: #FFF;
+		}
+		
+/* GENERAL MOJO AND MULA */
+		
+		h1 {
+			font-family: Arial, Helvetica, sans-serif;
+			font-weight: normal;
+			font-size: 32px;
+			color: #CC6633;
+			margin-bottom: 30px;
+			background-color: #FFF;
+		}
+		
+		h2 {
+			color: #666666;
+			font-size: 16px;
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: #FFF;
+		}
+		
+		a {
+			color:#CC6714;
+			text-decoration: none;
+		}
+
+		a:hover {
+			color:#CC6714;
+			background-color: #F5F5F5;
+		}
+
+		
+		form {
+			padding:3px;
+			margin-bottom:2px;
+			font-size:12px;
+		}
+		
+		form Label {
+		color:#FFFFFF;
+		}
+		
+		input {
+			background-color: #FFF;
+			color:#333333;
+			border: 1px solid #CCC;
+			font-size: 11px;
+			padding: 3px;
+		}
+		
+		.button {
+			padding: 1px;
+			border:1px solid #666666;
+		}
+		
+		
+/******************************************************************************************/
+		#searchEJHS form {
+			padding:3px;
+			margin-bottom:2px;
+			font-size:12px;
+		}
+		
+		#searchEJHS form Label {
+		color:#FFFFFF;
+		margin-left:450px;
+		}
+		
+		#searchEJHS input {
+			background-color: #FFF;
+			color:#333333;
+			border: 1px solid #CCC;
+			font-size: 11px;
+			padding: 3px;
+		}
+		
+		#searchEJHS .button {
+			padding: 3px;
+			border:1px solid #666666;
+		}
+
+/******************************************************************************************/
+/* HEADER ELEMENTS */
+
+		#header {
+			border-bottom: 1px solid #948979;
+			padding-top: 10px;
+			clear: both;
+			height:118px;
+			background-image:url(img/ejhs_banner.gif);
+			background-repeat:no-repeat;
+		}
+		
+
+		/* the slogan */
+		#header p { 
+			margin-top: -20px;
+			margin-left: 30px;
+			color: #999999;
+		}
+		
+/* HEADER-LINKS ELEMENTS */		
+		#header-links {
+		
+		}
+		#menu {
+			background:#575352;
+			color:#89817f;
+			padding-left:20px;
+			padding-top:0px;
+			padding-bottom:5px;
+			font-size:14px;
+			/*font-weight:bold;*/	
+			margin-bottom:0px;
+		}
+		
+		#menu .menuTable td {
+	border-bottom: 1px solid #ffffff;
+	}
+		
+		#menu a{
+			/**
+			color:#ffffff;
+			/*font-weight:bold;
+			border-bottom:1px solid #CC6714;
+			padding:3px;
+			display:block;
+			*/
+			
+				font: bold 11px Arial, Helvetica, sans-serif;
+				color: #FFFFFF;
+				line-height:16px;
+				letter-spacing:.1em;
+				text-decoration: none;
+				display:block;
+				padding:8px 6px 10px 20px;
+			
+		
+		}
+		#menu a:hover{
+			color:#ffffff;
+			background:#666;
+		}
+		
+		#menu .classMenu{
+			font: 12px Lucida Grande, Tahoma, Arial, Helvetica, sans-serif;
+			color: #cccccc;
+			line-height:16px;
+			letter-spacing:.1em;
+			text-decoration: none;			
+		}
+		
+		#navMenuTopLink {
+			background:#333333;
+			height:21px;
+			background:url(../ejhs/img/search_bkd2.gif);
+		}
+		
+		#navMenuTopLink ul {
+			margin:0;
+			padding:0;
+			list-style-type:none;
+			list-style-image:none;
+		}
+		
+		#navMenuTopLink li {
+			display:inline;
+		}
+		
+		#navMenuTopLink li a {
+			color:#FFFFFF;
+			text-decoration:none;
+			margin:4px;
+			padding:5px 20px 5px 20px;
+			color:#FFFFFF;
+			/*background:#575352;*/
+			background-image:inherit;
+			line-height:16px;
+			letter-spacing:.1em;
+			font-weight:bold;
+		}
+		
+		#navMenuTopLink li a:hover {
+			color:#FFFFFF;
+			background:#000000;
+		}
+		
+		.navMenuTopLinkBottom {
+			height:10px;
+			margin:0px;
+			background:#000000;
+		}
+		.line {
+			border-top:2px solid #CC6714; padding:0; margin-top:5px 0; background:none;;		
+		}
+				
+/* NAVIGATION ELEMENTS */
+	
+		 #navigation ul {
+			margin-left: 0;
+			padding-left: 0;
+			list-style-type: none;			
+			float: left;
+			width: 150px;
+		}
+
+		#navigation a {
+			display: block;
+			padding: 5px;
+			width: 160px;
+			border-bottom: 1px solid #CCC;
+		}
+
+		#navigation a:link, #navlist a:visited {
+			color:#CC6714;
+			text-decoration: none;
+		}
+		
+		#navigation a:hover {
+			background: #000000 url(arrow.gif) 96% 50% no-repeat;
+			background-color: #F5F5F5;
+			color:#CC6714;
+		}
+		
+		#navigation a:active {
+			background: #000000 url(arrow.gif) 96% 50% no-repeat;
+			background-color: #F5F5F5;
+			color:#CC6714;
+		}		
+		
+/* SUBNAVLIST ******************************************* */
+		#subnavlist a:hover {
+			background: #000000;
+			background-color: #F5F5F5;
+			color:#CC6714;
+		}
+		 #subnavlist ul {
+			margin-left: 5px;
+			padding-left: 5px;
+			float: left;
+			width: 150px;
+		}
+
+		#subnavlist a {
+			display:none;
+			padding: 5px;
+			width: 160px;
+		}
+
+		#subnavlist a:link{
+			color:#CC6714;
+			text-decoration: none;
+		}
+		
+		#subnavlist a:hover {
+			background-color: #F5F5F5;
+			color:#CC6714;
+		}
+		
+		#subnavlist a:active {
+			background: #000000 url(arrow.gif) 96% 50% no-repeat;
+			background-color: #F5F5F5;
+			color:#CC6714;
+		}		
+		
+/* END SUBNAVLIST */
+
+/* THE SMALL BOX BELOW NAV */
+
+		#navigation p {
+			margin-top: 40px;
+			padding: 5px;
+			border-bottom: 1px dotted #CCC;
+			border-top: 1px dotted #CCC;
+		}
+		
+/* CONTENT ELEMENTS */
+
+		#content {
+			width: 890x;
+			margin: 0;
+		}
+		
+		#content p {
+			padding-bottom: 10px;
+			border-bottom: 1px solid #DDDDDD; /* A faint grey line below the text */
+		}
+		
+		#searchEJHS {
+			background-image:url(img/search_bkd2.gif); 
+			height:25px;
+			padding-bottom:10px;
+		}
+		
+		#content #NewsPane{
+			margin-top:0px;
+			margin-bottom:0px;
+			padding:20px;
+			
+		}
+		#content #manuscript{
+			margin-top:0px;
+			margin-bottom:0px;
+			padding:20px;
+			border-right:1px solid #575352;
+		}
+
+		#content #latestManuscripts{
+			margin-top:0px;
+			margin-bottom:0px;
+			padding:20px;
+			border-left:1px solid #CC6714;
+		}
+
+		
+		#content #NewsPane p {
+			padding: 0px;
+			border-bottom: 0px dotted #DDDDDD; /* A faint grey line below the text */
+			margin-left:10px;
+			margin-right:10px;
+			margin-top:0px;
+			margin-bottom:2px;
+		}
+
+		#content #bottomContainer h2 {
+			background:none;
+		}
+
+/* SIDEBAR ELEMENTS */
+
+		#sidebar {
+			float: right;
+			width: 200px;
+			background:#FFFFFF;			
+		}
+		
+		#sidebar p {
+			padding-bottom: 10px;
+			border-bottom: 1px solid #DDDDDD;
+		}
+		#sidebar a {
+		color:#CCCCCC;	
+		}
+		
+		#sidebar a:hover{
+		background:none;
+		color:#FFFFFF;
+		}
+/* FOOTER ELEMENTS */
+
+		#footer {
+			margin-top: 20px;
+			clear: both;
+			background-color:#575352;
+			padding: 0px 5px 0px 5px;
+			background-image:url(img/footer_bkd.gif);
+		}
+		
+		#footer p {
+			color:#89817f;
+			padding: 5px;
+		}
+		
+		#footer p a {
+			color: #89817f;
+			border-bottom: 1px dotted #89817f;
+		}
+		
+		#footer p a:hover {
+			color: #FFFFFF;
+			background-color:#575352;
+		}
+		
+		/* And they lived happily ever after. The End. */
+
+
+#customizeLink a{
+			padding: 0px;
+			border-bottom: 0px solid #CCC;
+}
+#customizeLink a:hover{
+			background:none;
+			background-color: #F5F5F5;
+			color:#CC6714;
+}
+
+		 #subnavlist {
+			margin-left: 10px;
+			padding-left: 50px;
+			list-style-type:circle;			
+		}	
+		#subnavlist a {
+			display:block;
+			padding: 0px;
+			border-bottom:none;
+			border:none;
+		}
+	 	#navigation p {
+			border:none;
+			margin-top:20px;
+			margin-bottom:0px;
+			padding:0px;
+		}
+

@@ -1,0 +1,15 @@
+// $Id: config.w32,v 1.3 2007/03/15 16:15:18 edink Exp $
+// vim:ft=javascript
+
+ARG_WITH("haru", "Haru PDF support", "no");
+
+if (PHP_HARU == "yes") {
+	if (CHECK_LIB("libhpdf.lib", "haru") &&
+			CHECK_LIB("libpng.lib", "haru") &&
+			CHECK_LIB("zlib.lib", "haru") &&
+			CHECK_HEADER_ADD_INCLUDE("hpdf.h", "CFLAGS_HARU", PHP_HARU + ";" + PHP_PHP_BUILD + "\\include\\libharu")) {
+
+		EXTENSION("haru", "haru.c");
+	}
+}
+
